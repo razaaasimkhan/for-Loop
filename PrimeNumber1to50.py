@@ -7,6 +7,6 @@ def prime(num):
         return number
 
 
-for number in range(1, 50 + 1):
+for number in range(1, 50 + 1): #prime number 1 to 50
     if prime(number):
         print(number)
